@@ -1,0 +1,29 @@
+li a{
+    display: block;
+    color: rgb(0, 217, 255);
+    padding: 10px 15px;
+    text-decoration: none;
+}
+li a.active {
+    background-color: #a0dfff;
+    color: rgb(0, 0, 0);
+}
+li a:hover:not(.active) {/*move on*/
+    background-color: rgb(190, 247, 255);
+    color: rgb(0, 13, 153);
+    font-size: xx-large;
+}
+body {
+    background-color: rgb(154, 214, 241);
+}
+ul {
+    font-size: large;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 10%;
+    background-color: #195477;
+    position: fixed;
+    height: auto;
+    overflow: auto;
+}
