@@ -8,7 +8,7 @@ li a.active {
     background-color: #a0dfff;
     color: rgb(0, 0, 0);
 }
-li a:hover:not(.active) {/*move on*/
+li a:hover:not(.active) {
     background-color: rgb(190, 247, 255);
     color: rgb(0, 13, 153);
     font-size: xx-large;
